@@ -1,128 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Time tracking dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-<section class="time">
-  <div class="card">
-<div class="contend">
-<img class="avatar" src="./images/image-jeremy.png" alt=" Jeremy Robson" width="64" height="64">
-<div class="wrap-desc">
-<p class="desc">Report for</p>
-<p class="name">Jeremy Robson</p>
-</div>
-</div>
-<div class="timeframe">
-  <ul class="time-nav">
-    <li class="time-item" data-range="daily">
- <button class="btn-item">Daily</button>
-    </li>
-    <li class="time-item" data-range="weekly">
-       <button class="btn-item">Weekly</button>
-    </li>
-    <li class="time-item" data-range="monthly">
-     <button class="btn-item">Monthly</button>
-    </li>
-  </ul>
-</div>
-  </div>
-  <ul class="list" >
-<li class="list-item border-top" data-title="Work">
-  <div class="border-top orange">
-  </div>
-<div class="container">
-<div class="wrap">
-<p class="desc-content">Work</p>
-<button class="btn-svg"><img  class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
-</div>
-<div class="time-wrap">
-  <p class="time-list"> <span class="data-hours">0</span>hrs</p>
-  <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
-</div>
-</div>
-</li>
-<li class="list-item border-top" data-title="Play">
-<div class="border-top blue">
-</div>
-<div class="container">
-  <div class="wrap">
-    <p class="desc-content">Play</p>
-    <button class="btn-svg"><img  class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
-  </div>
-  <div class="time-wrap">
-    <p class="time-list"> <span class="data-hours">0</span>hrs</p>
-    <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
-  </div>
-  </div>
-</li>
-<li class="list-item" data-title="Study">
-<div class="border-top pink">
-</div>
-<div class="container">
-  <div class="wrap">
-    <p class="desc-content">Study</p>
-    <button class="btn-svg"><img  class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
-  </div>
-  <div class="time-wrap">
-    <p class="time-list"> <span class="data-hours">0</span>hrs</p>
-    <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
-  </div>
-  </div>
-</li>
-<li class="list-item" data-title="Exercise">
-  <div class="border-top green">
-  </div>
-  <div class="container">
-  <div class="wrap">
-    <p class="desc-content">Exercise</p>
-    <button class="btn-svg"><img  class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
-  </div>
-  <div class="time-wrap">
-    <p class="time-list"> <span class="data-hours">0</span>hrs</p>
-    <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
-  </div>
-  </div>
-</li>
-<li class="list-item" data-title="Social">
-  <div class="border-top purple">
-  </div>
-  <div class="container">
-  <div class="wrap">
-    <p class="desc-content">Social</p>
-    <button class="btn-svg"><img  class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
-  </div>
-<div class="time-wrap">
-  <p class="time-list"> <span class="data-hours">0</span>hrs</p>
-  <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
-</div>
-  </div>
-</li>
-<li class="list-item" data-title="Self Care">
-  <div class="border-top yellow">
-  </div>
-  <div class="container">
-  <div class="wrap">
-    <p class="desc-content">Self Care</p>
-    <button class="btn-svg"><img  class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
-    
-  </div>
-  <div class="time-wrap">
-    <p class="time-list"> <span class="data-hours">0</span>hrs</p>
-    <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
-  </div>
-  </div>
-</li>
-  </ul>
-</section>
-<script type="module" src="./index.js"></script>
+  <section class="time">
+    <div class="card">
+      <div class="contend">
+        <img class="avatar" src="./images/image-jeremy.png" alt=" Jeremy Robson" width="64" height="64">
+        <div class="wrap-desc">
+          <p class="desc">Report for</p>
+          <p class="name">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="timeframe">
+        <ul class="time-nav">
+          <li class="time-item" data-range="daily">
+            <button class="btn-item">Daily</button>
+          </li>
+          <li class="time-item" data-range="weekly">
+            <button class="btn-item">Weekly</button>
+          </li>
+          <li class="time-item" data-range="monthly">
+            <button class="btn-item">Monthly</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="list">
+      <li class="list-item border-top" data-title="Work">
+        <div class="border-top orange">
+        </div>
+        <div class="container">
+          <div class="wrap">
+            <p class="desc-content">Work</p>
+            <button class="btn-svg"><img class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
+          </div>
+          <div class="time-wrap">
+            <p class="time-list"> <span class="data-hours">0</span>hrs</p>
+            <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
+          </div>
+        </div>
+      </li>
+      <li class="list-item border-top" data-title="Play">
+        <div class="border-top blue">
+        </div>
+        <div class="container">
+          <div class="wrap">
+            <p class="desc-content">Play</p>
+            <button class="btn-svg"><img class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
+          </div>
+          <div class="time-wrap">
+            <p class="time-list"> <span class="data-hours">0</span>hrs</p>
+            <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
+          </div>
+        </div>
+      </li>
+      <li class="list-item" data-title="Study">
+        <div class="border-top pink">
+        </div>
+        <div class="container">
+          <div class="wrap">
+            <p class="desc-content">Study</p>
+            <button class="btn-svg"><img class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
+          </div>
+          <div class="time-wrap">
+            <p class="time-list"> <span class="data-hours">0</span>hrs</p>
+            <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
+          </div>
+        </div>
+      </li>
+      <li class="list-item" data-title="Exercise">
+        <div class="border-top green">
+        </div>
+        <div class="container">
+          <div class="wrap">
+            <p class="desc-content">Exercise</p>
+            <button class="btn-svg"><img class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
+          </div>
+          <div class="time-wrap">
+            <p class="time-list"> <span class="data-hours">0</span>hrs</p>
+            <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
+          </div>
+        </div>
+      </li>
+      <li class="list-item" data-title="Social">
+        <div class="border-top purple">
+        </div>
+        <div class="container">
+          <div class="wrap">
+            <p class="desc-content">Social</p>
+            <button class="btn-svg"><img class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
+          </div>
+          <div class="time-wrap">
+            <p class="time-list"> <span class="data-hours">0</span>hrs</p>
+            <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
+          </div>
+        </div>
+      </li>
+      <li class="list-item" data-title="Self Care">
+        <div class="border-top yellow">
+        </div>
+        <div class="container">
+          <div class="wrap">
+            <p class="desc-content">Self Care</p>
+            <button class="btn-svg"><img class="btn-svg" src="./images/icon-ellipsis.svg" alt=""></button>
+
+          </div>
+          <div class="time-wrap">
+            <p class="time-list"> <span class="data-hours">0</span>hrs</p>
+            <p class="time-all"> <span class="data-prev-label">Last Week</span> <span class="data-prev">0</span> hrs</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <script type="module" src="/index.js"></script>
 </body>
+
 </html>
