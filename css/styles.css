@@ -122,28 +122,28 @@ color: #7078c9;
 .orange{
 padding: 2em;
     background:
-        url("./images/icon-work.svg") right 0.8em top -0.6em / 4.9em no-repeat,
+        url("../images/icon-work.svg") right 0.8em top -0.6em / 4.9em no-repeat,
         #ff8b64;
 }
 .blue{
     padding: 2em;
-    background: url("./images/icon-play.svg") right 0.8em top -0.2em /4.5em no-repeat, #55c2e6
+    background: url("../images/icon-play.svg") right 0.8em top -0.2em /4.5em no-repeat, #55c2e6
 }
 .pink{
 padding: 2em;
-    background: url("./images/icon-study.svg") right 0.8em top -0.2em /4.5em no-repeat, #ff5e7d
+    background: url("../images/icon-study.svg") right 0.8em top -0.2em /4.5em no-repeat, #ff5e7d
 }
 .green{
 padding: 2em;
-    background: url("./images/icon-exercise.svg") right 0.8em top -0.1em /4.5em no-repeat, #4bcf82;
+    background: url("../images/icon-exercise.svg") right 0.8em top -0.1em /4.5em no-repeat, #4bcf82;
 }
 .purple{
 padding: 2em;
-    background: url("./images/icon-social.svg") right 0.8em top -0.8em /4.6em no-repeat, #7335d2;
+    background: url("../images/icon-social.svg") right 0.8em top -0.8em /4.6em no-repeat, #7335d2;
 }
 .yellow{
 padding: 2em;
-    background: url("./images/icon-self-care.svg") right 0.8em top -0.5em /4em no-repeat, #f1c75b;
+    background: url("../images/icon-self-care.svg") right 0.8em top -0.5em /4em no-repeat, #f1c75b;
 }
 .wrap{
 display: flex;
@@ -178,8 +178,9 @@ align-items: center;
 @media screen and (min-width:48em){
     .time {
             max-width: 48em;
-            padding: 0 4.9rem;
+            padding: 15.8rem 4.9rem;
             box-sizing: border-box;
+         
         }
     
         .time-nav{
@@ -259,7 +260,7 @@ align-items: center;
     gap: 2em;
         }
     .wrap{
-    font-size: 1.9em;
+    font-size: 1.69em;
     }
        
         .btn-svg {
