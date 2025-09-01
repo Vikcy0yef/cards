@@ -51,8 +51,8 @@ function render() {
         const prevEl = card.querySelector(".data-prev");
         const prevLabelEl = card.querySelector(".data-prev-label");
 
-        if (hoursEl) hoursEl.textContent = frame.current;
-        if (prevEl) prevEl.textContent = frame.previous;
+        if (hoursEl) hoursEl.textContent = `${ frame.current} hrs` ;
+        if (prevEl) prevEl.textContent = ` ${frame.previous} hrs` ;
         if (prevLabelEl) prevLabelEl.textContent = labels[state.currentRange];
 
     }
