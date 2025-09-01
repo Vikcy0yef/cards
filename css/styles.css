@@ -55,6 +55,7 @@ display: flex;
 gap: 1.5em;
 position: relative;
 z-index: 2;
+margin: 0;
 margin-bottom: -0.7em
 }
 .avatar{
@@ -271,5 +272,8 @@ align-items: center;
         .time-list {
            
             font-size: 3.2em;
+        }
+        .btn-item{
+            font-size: 1.06em;
         }
 }
