@@ -239,12 +239,17 @@ align-items: center;
     .desc{
         font-size: 1em;
     }
+    .avatar{
+        width: 4.87em;
+        height: 4.87em;
+    }
     .name{
         font-size: 2.5em;
-        margin-bottom: 1.8em;
+        margin-bottom: 1.56em;
     }
     .contend{
         flex-direction: column;
+       
     }
     .timeframe{
         padding: 2em;
@@ -260,6 +265,7 @@ align-items: center;
             grid-column: 2;
     gap: 2em;
         }
+       
     .wrap{
     font-size: 1.7em;
     }
